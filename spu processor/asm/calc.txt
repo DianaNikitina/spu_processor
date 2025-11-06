@@ -1,0 +1,8 @@
+IN 
+IN
+:5
+POPR AX
+PUSHR AX
+JB :5
+OUT
+HALT
