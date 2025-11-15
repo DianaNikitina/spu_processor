@@ -1,0 +1,8 @@
+IN
+:5
+IN
+IN
+IN
+JB :5
+OUT
+HALT

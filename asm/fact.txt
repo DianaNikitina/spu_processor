@@ -1,0 +1,19 @@
+IN
+CALL :5
+OUT
+HALT
+:5
+POPR AX      
+PUSHR AX     
+PUSH 1
+JE :6
+PUSHR AX     
+PUSH 1
+SUB         
+CALL :5    
+MUL         
+RET
+:6
+POP         
+PUSH 1    
+RET
